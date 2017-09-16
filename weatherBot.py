@@ -33,8 +33,8 @@ def weatherUpdate():
         query_url = url + "appid=" + api_key + "&units=" + units + "&q=" + cityname + "," + countryname
         response = req.get(query_url).json()
         temperature = response["main"]["temp"]
-        time = datetime.now().strftime("%I:%M %p")
-        api.update_status("The temperature in %s, %s at %s is %sF" % (cityname, time, countryname, temperature))
+        #time = datetime.now().strftime("%I:%M %p")
+        api.update_status("The current temperature in %s, %s is %sF" % (cityname, countryname, temperature))
         print("Successful tweet!")
     except:
         print("Skipping this one!")
