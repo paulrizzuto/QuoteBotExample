@@ -9,10 +9,10 @@ from citipy import citipy
 
 def weatherUpdate():
     #twitter
-    consumer_key = 	"DwLw79XZY4889gxF7kQX0PkcO"
-    consumer_secret = "1SAO5vgeLGikldPHv3bHFEQpct4MyVvFKQHSTDhBbq9meTVNLE"
-    access_token = "901933530258829312-6LurEa2LxZQRFGSVCAuXAT1QPIgVj6p"
-    access_token_secret = "OGBiYPhUyDaBnAVslQ9ERKkkBhEjMmmn3pK1aKgSvIBDU"
+    consumer_key = 	"dHSopVEhYTGEnuFSO9ZOfMGp1"
+    consumer_secret = "FAKeb5sLWElP9dksT3kjJsKO0vHPtixGW4O1oHrqrrj40r93cN"
+    access_token = "909114160713289728-Akb2JL4JrmXZLQqGwp1loZQAPhnvNER"
+    access_token_secret = "PInMGr6YidbTR4acUoKDtslQt7ksubqsXFWQef5nxvO8L"
 
     #weather
     api_key = "577f692bda463ed51e5e7f3632a90604"
