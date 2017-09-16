@@ -40,4 +40,4 @@ def weatherUpdate():
 
 while(True):
     weatherUpdate()
-    time.sleep(60)
+    time.sleep(3600)
